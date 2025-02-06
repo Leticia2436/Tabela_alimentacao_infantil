@@ -1,0 +1,110 @@
+input{
+    border-radius: .5em;
+    padding: .5em;
+}
+.grupo{
+    margin-top: 1em;
+    margin-left: 15%;
+    margin-right: 50%;
+    margin-bottom: 1.2em;
+    font-weight: bolder;
+}
+.grupo,label{
+    display: inline-block;
+}
+.controle{
+    background-color: rgb(97, 82, 180);
+    margin-left: 1%;
+    margin-top: .5%;
+}
+.controleLI{
+    background-color: darkcyan;
+    margin-left: 0%;
+    margin-top: auto;
+}  
+h1{
+    margin-top: 20%;
+    margin-left: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+    color: darkblue;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif; 
+    margin-top: 5%;
+    margin-left: 9%;
+    display: inline-block;
+    color: darkcyan;
+}
+table {
+    border-style: solid;
+    border-width: 2px;
+    border-color: darkolivegreen;
+    border-collapse: collapse;
+    margin-left: 55%;
+    margin-right: auto;
+    margin-top: -23.3%;
+}
+td,th{
+    border-style: solid;
+    border-width: 2px;
+    border-color: darkcyan;   
+}
+th{
+    border-color: darkblue;
+}
+caption{
+    font-weight: bolder;
+    margin-bottom: 2%;
+}
+.footer {
+    position: absolute;
+    display: inline-block;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 80;
+    color:darkblue;
+    margin-top: 20.5%;
+    margin-left: 31.8%;
+    margin-right: 32%;
+    text-align: center;
+}
+.footer-background {
+    position: absolute;
+    margin-top: 20%;
+    left: 0;
+    right: 0;
+    height: 25.5%;
+    background-color: darkcyan;
+}
+.controleLI2 li{
+    font-weight: bold;
+    display: inline;
+    padding-top: 1em;
+    padding-left: .5em;
+    padding-right: 2em; 
+}
+.controleLI li{
+    font-weight: bold;
+    color: darkblue;
+    display: inline;
+    padding-top: 1em;
+    padding-left: .5em;
+    padding-right: 2em; 
+}
+header > nav {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 80;
+    margin-top: 1%;
+    margin-left: -2%;
+    margin-bottom: 4%;
+}
+.header-background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 7%;
+    background-color: darkcyan;
+}

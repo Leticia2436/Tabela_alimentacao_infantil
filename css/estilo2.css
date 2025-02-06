@@ -1,0 +1,103 @@
+header > img{
+    width: 120px;
+    height: auto;
+    position: absolute; 
+    top: 1px; 
+    left: 10px; 
+}
+h1{
+    margin-top: 0;
+    margin-left: 20%;
+    margin-right: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav > ul{
+    width: 100%; 
+    display: flex; 
+    padding: 20px 10px; 
+    /* background-color:rgb(189, 98, 177); */
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav > ul > li{
+    margin: 0.9em;
+}
+.controleLI li{
+    display: inline-block;
+    margin-left: 30px;
+    padding-left: .5em;
+    padding-right: 2em; 
+} 
+.container {
+    width: 80%;
+    margin: 30px auto;
+    background-color: white;
+    padding: 20px;
+}
+.developer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 15px;
+    width: 500px;
+    background-color: darkblue; /* Amarelo */
+    border-radius: 8px;
+}
+.developer-info {
+    max-width: 600px;
+}
+img {
+    width: 90px;
+    height: 150px;    
+}
+.developer-info h2 {
+    margin: 0;
+    color: darkcyan; /* Roxo */
+}
+ .developer-info p {
+            margin: 5px 0;
+            font-size: 1.1em;
+ }
+ header h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+header p {
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+.footer {
+    position: absolute;
+    display: inline-block;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 80;
+    color:darkblue;
+    margin-top: 20.5%;
+    margin-left: 31.8%;
+    margin-right: 32%;
+    text-align: center;
+}
+.footer-background {
+    position: absolute;
+    margin-top: 20%;
+    left: 0;
+    right: 0;
+    height: 25.5%;
+    background-color: darkcyan;
+}
+header > nav {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 90;
+    margin-left: 15%;
+}
+.header-background {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 1em;
+    margin-left: 0em;
+    height: 10%;
+    background-color: rgb(189, 98, 177);
+}
+

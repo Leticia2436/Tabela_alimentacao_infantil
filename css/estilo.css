@@ -1,6 +1,6 @@
 input{
-    border-radius: .5em;
-    padding: .5em;
+    border-radius: .3em;
+    padding: .6em;
 }
 .grupo{
     margin-top: 1em;
@@ -13,7 +13,7 @@ input{
     display: inline-block;
 }
 .controle{
-    background-color: rgb(97, 82, 180);
+    background-color:darkcyan;
     margin-left: 1%;
     margin-top: .5%;
 }
@@ -43,7 +43,7 @@ table {
     border-collapse: collapse;
     margin-left: 55%;
     margin-right: auto;
-    margin-top: -23.3%;
+    margin-top: -26.5%;
 }
 td,th{
     border-style: solid;
@@ -105,6 +105,15 @@ header > nav {
     top: 0;
     left: 0;
     right: 0;
-    height: 7%;
+    height: 7.2%;
     background-color: darkcyan;
+}
+.cbotao{
+ margin-left: 15.2%;
+ margin-top: 1%;
+ padding-left: 0.7em;
+ background-color: darkcyan;
+}
+.botao{
+    
 }

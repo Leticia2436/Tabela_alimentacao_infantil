@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>controle de alimentação infantil</title>
 
-     <script src="javaScript/events.js" defer></script>
+    <script src="javaScript/events.js" defer></script>
     <link rel="stylesheet" href="css/estilo.css">
 
 </head>
@@ -23,7 +23,6 @@
     </header>
     <main>
         <form action="">
-
             <div class="grupo">
                 <label for="alimento"> Insira o tipo de alimento consumido: </label>
                 <input type="text" id="alimento" class="controle" name="Alimento consumido:">
@@ -40,66 +39,86 @@
             </div>
 
             <div class="botao">
-            <input type="button" id="btnAdicionar"> Gravar nova refeição </button>
+            <input type="button" id="btnAdicionar" class="cbotao" value="Aperte para adicionar">
             </div>
 
         </form>
-        <table>
-            <tr>
-                <th>Tipo de alimento</th>
-                <th> Quantidade de alimento </th>
-                <th> Horário da refeição </th>
+        <table class="table" id="table">
+            <thead>
+                <tr> 
+                <th onclick="ordenarTabela(0)">Tipo de alimento</th>
+                <th onclick="ordenarTabela(1)">Quantidade de alimento</th>
+                <th onclick="ordenarTabela(2)">Horário da refeição</th>
             </tr>
+            </thead>
+
+            <tbody>
             <tr>
+                
                 <td>Mamadeira</td>
                 <td>120ml</td>
                 <td>06:00</td>
             </tr>
             <tr>
+                
                 <td>Feijão com arroz e carne</td>
                 <td>300g</td>
                 <td>12:00</td>
             </tr>
             <tr>
+                
                 <td>Sopa de carne</td>
                 <td>200g</td>
                 <td>18:00</td>
             </tr>
             <tr>
+                
                 <td>Papinha de batata</td>
                 <td>150g</td>
                 <td>11:00</td>
             </tr>
             <tr>
+                
                 <td>Macarrão com frango</td>
                 <td>100g</td>
                 <td>12:30</td>
             </tr>
             <tr>
+                
                 <td>Arroz de leite</td>
                 <td>250g</td>
                 <td>11:30</td>
             </tr>
             <tr>
+                
                 <td>Suco de laranja</td>
                 <td>150ml</td>
                 <td>11:30</td>
             </tr>
             <tr>
+                
                 <td>Bolacha</td>
-                <td>5 (unidades)</td>
+                <td>110g</td>
                 <td>16:30</td>
             </tr>
             <tr>
+                
                 <td>Sopa de legumes</td>
                 <td>200g</td>
                 <td>19:00</td>
             </tr>
             <tr>
+                
                 <td>Mamadeira</td>
                 <td>150ml</td>
                 <td>22:00</td>
             </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Todos os direitos reservados &copy;</td>
+              </tr>
+        </tfoot>
             <caption>LISTA DE ALIMENTAÇÃO DIÁRIA</caption>
         </table>
     </main>
